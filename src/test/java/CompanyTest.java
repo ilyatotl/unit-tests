@@ -48,7 +48,7 @@ public class CompanyTest {
     }
 
     @Test
-    public void testCalculateSalary() {
+    public void companySalary() {
         for (int i = 0; i < months.size(); ++i) {
             int val = companyAns.get(i);
             assertEquals(val, company.calculateSalary(months.get(i)));
